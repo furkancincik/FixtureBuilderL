@@ -13,6 +13,7 @@ public class Main {
         Team team4 = new Team("Beşiktaş    ", 4);
         Team team5 = new Team("Başakşehir  ", 5);
         Team team6 = new Team("Trabzonspor ", 6);
+        Team team7 = new Team("Boluspor    ", 7);
 
 
         teams.add(team1);
@@ -21,6 +22,7 @@ public class Main {
         teams.add(team4);
         teams.add(team5);
         teams.add(team6);
+        teams.add(team7);
 
 
         //fikstür oluşturuldu.
