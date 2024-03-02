@@ -23,8 +23,8 @@ public class FixtureGenerator {
                     Team homeTeam = teams.get(i);
                     Team awayTeam = teams.get(numberOfTeams - i);
 
-                    String homeTeamName = (homeTeam.getTeamID() == 99) ? "Bay" : homeTeam.getTeamName();
-                    String awayTeamName = (homeTeam.getTeamID() == 99) ? "Bay" : awayTeam.getTeamName();
+                    String homeTeamName = (homeTeam.getTeamID() == 99) ? "Bay         " : homeTeam.getTeamName();
+                    String awayTeamName = (awayTeam.getTeamID() == 99) ? "Bay         " : awayTeam.getTeamName();
                     roundFixtures.add(homeTeamName + " vs " + awayTeamName);
                 }
 
